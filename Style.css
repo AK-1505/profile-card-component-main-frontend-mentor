@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+body
+{
+    background-color: hsl(185, 75%, 39%);
+    background-image: url('../profile-card-component-main/images/bg-pattern-top.svg') , url('../profile-card-component-main/images/bg-pattern-bottom.svg') ;
+    background-repeat: no-repeat , no-repeat;
+    background-position :right 50vw bottom 50vh, left 50vw top 50vh;
+    font-family : 'kumbh Sans' , sans-serif;
+    font-size : 18px;
+}
+
+.Card
+{
+    background-color: rgb(250,250,250);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    height: 374px;
+    width: 352px;
+    border-radius:11px;
+    display:grid;
+    text-align: center;
+}
+
+.Inner-image
+{
+    width: 352px;
+    height: 140px;
+    border-radius: 11px 11px 0px 0px;
+}
+
+.Person
+{
+    border-radius:50% ;
+    border:5px solid white;
+    margin-left:auto;
+    margin-top: -40px;
+}
+
+.Name
+{
+    font-family : 'kumbh Sans' , sans-serif;
+    font-weight: 700;
+}
+
+.City
+{
+    font-weight: 300;
+    font-size: 1.1rem;
+    margin-top: 10px;
+    color: hsl(0, 0%, 59%);
+}
+
+.age
+{
+    font-weight: 300;
+    font-size: 1.1rem;
+    color:hsl(0, 1%, 55%);
+}
+
+.Followers
+{
+    padding-top:22px;
+    padding-right: 40px;
+    border-top:1px solid hsl(0, 0%, 59%) ;
+    padding-left:38px;
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.act
+{
+    display: block;
+    font-weight: 300;
+    font-size: .9rem;
+    color:hsl(0, 1%, 55%);
+    letter-spacing:.1rem;
+    text-align: space-between;
+}
